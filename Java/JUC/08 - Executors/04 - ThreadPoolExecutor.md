@@ -1,4 +1,4 @@
-  ### 简介
+### 简介
 ThreadPoolExecutor 实现自 ExecutorService 接口，有相关的 execute() 方法
 实现原理跟 ThreadPool 类似，有一个 ThreadPool 的入口，一个阻塞队列 workQueue（task queue）用来存放任务，一个 workers 集合用来存放工作线程，新增加一个 RejectedExecutionHandler 用来处理被拒绝的任务![[Pasted image 20240102162019.png]]
 
@@ -198,3 +198,18 @@ final void runWorker(Worker w) {
 }
 ```
 在执行任务的时候，也要进行加锁，实现原理跟 ThreadPool 的一样，把 task 放入到 worker 中，然后 start worker 的线程，run 方法里就会去执行 task 的 run 的方法，相当于给 task 套了一层 worker 线程
+
+### 拒绝策略
+如果当前同时运行的线程数量达到maximumPoolSize并且队列也已经放满任务时，ThreadPoolExecutor 定义一些策略：
+- `ThreadPoolExecutor.AbortPolicy`：抛出 `RejectedExecutionException`来拒绝新任务的处理。
+- `ThreadPoolExecutor.CallerRunsPolicy`：调用执行自己的线程运行任务，也就是直接在调用`execute`方法的线程中运行(`run`)被拒绝的任务，如果执行程序已关闭，则会丢弃该任务。因此这种策略会降低对于新任务提交速度，影响程序的整体性能。如果您的应用程序可以承受此延迟并且你要求任何一个任务请求都要被执行的话，你可以选择这个策略。
+- `ThreadPoolExecutor.DiscardPolicy`：不处理新任务，直接丢弃掉。
+- `ThreadPoolExecutor.DiscardOldestPolicy`：此策略将丢弃最早的未处理的任务请求
+
+### 阻塞队列
+新任务来的时候会先判断当前运行的线程数量是否达到核心线程数，如果达到的话，新任务就会被存放在队列中
+
+不同的线程池会选用不同的阻塞队列，可以结合内置线程池来分析
+- 容量为 `Integer.MAX_VALUE` 的 `LinkedBlockingQueue`（无界队列）：`FixedThreadPool` 和 `SingleThreadExector` 。`FixedThreadPool`最多只能创建核心线程数的线程（核心线程数和最大线程数相等），`SingleThreadExector`只能创建一个线程（核心线程数和最大线程数都是 1），二者的任务队列永远不会被放满。
+- `SynchronousQueue`（同步队列）：`CachedThreadPool` 。`SynchronousQueue` 没有容量，不存储元素，目的是保证对于提交的任务，如果有空闲线程，则使用空闲线程来处理；否则新建一个线程来处理任务。也就是说，`CachedThreadPool` 的最大线程数是 `Integer.MAX_VALUE` ，可以理解为线程数是可以无限扩展的，可能会创建大量线程，从而导致 OOM。
+- `DelayedWorkQueue`（延迟阻塞队列）：`ScheduledThreadPool` 和 `SingleThreadScheduledExecutor` 。`DelayedWorkQueue` 的内部元素并不是按照放入的时间排序，而是会按照延迟的时间长短对任务进行排序，内部采用的是“堆”的数据结构，可以保证每次出队的任务都是当前队列中执行时间最靠前的。`DelayedWorkQueue` 添加元素满了之后会自动扩容原来容量的 1/2，即永远不会阻塞，最大扩容可达 `Integer.MAX_VALUE`，所以最多只能创建核心线程数的线程。

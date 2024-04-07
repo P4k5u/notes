@@ -13,36 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微服务/01 - 基础.md",
+                "file": "Java/JUC/08 - Executors/04 - ThreadPoolExecutor.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "19841059cb46e137",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/Redis/05 - 高可用/02 - 哨兵.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03817ff7eac02136",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pictures/Pasted image 20240406001845.png"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pictures/Pasted image 20240406001845.png",
+                "file": "Java/JUC/08 - Executors/04 - ThreadPoolExecutor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pictures/Pasted image 20240406001845.png",
+                "file": "Java/JUC/08 - Executors/04 - ThreadPoolExecutor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pictures/Pasted image 20240406001845.png"
+                "file": "Java/JUC/08 - Executors/04 - ThreadPoolExecutor.md"
               }
             }
           },
@@ -160,8 +137,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -177,12 +153,27 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "remotely-save:Remotely Save": false,
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "3a94bb090da1653e",
+  "active": "d6d46d20da905e6f",
   "lastOpenFiles": [
+    "Java/JUC/08 - Executors/03 - ExecutorService.md",
+    "Java/JUC/08 - Executors/02 - ThreadPool.md",
+    "Java/JUC/08 - Executors/04 - ThreadPoolExecutor.md",
+    "Java/JUC/08 - Executors/05 - ScheduledThreadPoolExecutor.md",
+    "Java/JUC/08 - Executors/06 - ForkJoinPool.md",
+    "Java/JUC/02 - Thread.md",
+    "分布式/01 - 理论基础.md",
+    "Java/IO/03 - Reactor 模式.md",
+    "Java/IO/02 - NIO.md",
+    "Java/容器/Map/01 - TreeMap.md",
+    "Java/容器/Map/03 - HashTable.md",
+    "Java/容器/Map/02 - HashMap.md",
+    "微服务/01 - 基础.md",
+    "未命名.canvas",
+    "Database/Redis/05 - 高可用/02 - 哨兵.md",
+    "Pictures/Pasted image 20240406001845.png",
     "未命名文件夹",
     "README.md",
     "Spring/02 - Spring/03 - Bean/03 - 生命周期.md",
@@ -195,23 +186,9 @@
     "Database/Redis/06 - 过期删除策略.md",
     "分布式/09 - 服务熔断.md",
     "分布式/08 - 服务降级.md",
-    "分布式/01 - 理论基础.md",
     "架构/07 - 高可用/03 - 容灾备份、故障转移.md",
     "架构/07 - 高可用/02 - 负载均衡.md",
-    "架构/07 - 高可用/01 - 降级和熔断.md",
-    "Java/基础/04 - String.md",
-    "Java/基础/03 - 数据类型.md",
-    "Java/基础/10 - 异常.md",
-    "Java/基础/07 - Object 通用方法.md",
-    "Java/基础/02 - 类图.md",
-    "Java/IO/03 - Reactor 模式.md",
-    "Java/IO/02 - NIO.md",
-    "Java/IO/01 - IO 多路复用.md",
-    "Java/容器/Map/02 - HashMap.md",
-    "Java/容器/Map/01 - TreeMap.md",
-    "Spring/01 - Spring Framework.md",
     "Pictures/Pasted image 20240406002159.png",
-    "Pictures/Pasted image 20240406001845.png",
     "Pictures/Pasted image 20240405225019.png",
     "Pictures/Pasted image 20240405232427.png",
     "Pictures/Pasted image 20240405225247.png",
@@ -219,7 +196,6 @@
     "Pictures/Pasted image 20240401180218.png",
     "Pictures/Pasted image 20240401180017.png",
     "Pictures/Pasted image 20240401175800.png",
-    "未命名.canvas",
     "未命名 1",
     "未命名",
     "Java/容器/Collections/03 - Queue",
@@ -228,7 +204,6 @@
     "Spring/02 - Spring/03 - IoC 容器",
     "Spring/03 - Web Framework/02 - Web Flux",
     "Spring/03 - Web Framework/01 - Spring MVC",
-    "Spring/02 - Spring/04 - AOP",
-    "Spring/02 - Spring/03 - Bean"
+    "Spring/02 - Spring/04 - AOP"
   ]
 }

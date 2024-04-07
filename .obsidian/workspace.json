@@ -1,0 +1,234 @@
+{
+  "main": {
+    "id": "b43c736277983e71",
+    "type": "split",
+    "children": [
+      {
+        "id": "2cd9247828a5a3c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6d46d20da905e6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "微服务/01 - 基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19841059cb46e137",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/Redis/05 - 高可用/02 - 哨兵.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03817ff7eac02136",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pictures/Pasted image 20240406001845.png"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e6a2b7d3f4337f4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c1b7ba094f868ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a94bb090da1653e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "custom"
+              }
+            }
+          },
+          {
+            "id": "c535acddb118d548",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "02a14974d0bc811d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.5
+  },
+  "right": {
+    "id": "b3ebd9db2055a2f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa5919c5e458fcbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53f583bebb49dd5d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Pictures/Pasted image 20240406001845.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "70e4ba6ef26a00a8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Pictures/Pasted image 20240406001845.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fd3732dd8b27a639",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a44453de95bbab4f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Pictures/Pasted image 20240406001845.png"
+              }
+            }
+          },
+          {
+            "id": "f3bdbbb59d672b8e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian42-brat:BRAT": false
+    }
+  },
+  "active": "3a94bb090da1653e",
+  "lastOpenFiles": [
+    "未命名文件夹",
+    "README.md",
+    "Spring/02 - Spring/03 - Bean/03 - 生命周期.md",
+    "Spring/02 - Spring/03 - Bean/02 - BeanDefinition.md",
+    "Spring/02 - Spring/02 - IoC 容器.md",
+    "Spring/02 - Spring/05 - AOP 切面实现.md",
+    "Spring/02 - Spring/06 - AOP 代理创建.md",
+    "Pictures/Pasted image 20240406214403.png",
+    "Database/Redis/07 - 内存淘汰策略.md",
+    "Database/Redis/06 - 过期删除策略.md",
+    "分布式/09 - 服务熔断.md",
+    "分布式/08 - 服务降级.md",
+    "分布式/01 - 理论基础.md",
+    "架构/07 - 高可用/03 - 容灾备份、故障转移.md",
+    "架构/07 - 高可用/02 - 负载均衡.md",
+    "架构/07 - 高可用/01 - 降级和熔断.md",
+    "Java/基础/04 - String.md",
+    "Java/基础/03 - 数据类型.md",
+    "Java/基础/10 - 异常.md",
+    "Java/基础/07 - Object 通用方法.md",
+    "Java/基础/02 - 类图.md",
+    "Java/IO/03 - Reactor 模式.md",
+    "Java/IO/02 - NIO.md",
+    "Java/IO/01 - IO 多路复用.md",
+    "Java/容器/Map/02 - HashMap.md",
+    "Java/容器/Map/01 - TreeMap.md",
+    "Spring/01 - Spring Framework.md",
+    "Pictures/Pasted image 20240406002159.png",
+    "Pictures/Pasted image 20240406001845.png",
+    "Pictures/Pasted image 20240405225019.png",
+    "Pictures/Pasted image 20240405232427.png",
+    "Pictures/Pasted image 20240405225247.png",
+    "Pictures/Pasted image 20240401175134.png",
+    "Pictures/Pasted image 20240401180218.png",
+    "Pictures/Pasted image 20240401180017.png",
+    "Pictures/Pasted image 20240401175800.png",
+    "未命名.canvas",
+    "未命名 1",
+    "未命名",
+    "Java/容器/Collections/03 - Queue",
+    "Java/容器/Collections/02 - List",
+    "Java/容器/Collections/01 - Set",
+    "Spring/02 - Spring/03 - IoC 容器",
+    "Spring/03 - Web Framework/02 - Web Flux",
+    "Spring/03 - Web Framework/01 - Spring MVC",
+    "Spring/02 - Spring/04 - AOP",
+    "Spring/02 - Spring/03 - Bean"
+  ]
+}

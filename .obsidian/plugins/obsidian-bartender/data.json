@@ -1,0 +1,47 @@
+{
+  "statusBarOrder": [],
+  "ribbonBarOrder": [],
+  "fileExplorerOrder": {
+    "/": [
+      "大纲.md",
+      "Computer Science",
+      "Java",
+      "Spring",
+      "Database",
+      "MessageQueue",
+      "架构",
+      "分布式",
+      "微服务",
+      "Algorithm",
+      "Tool",
+      "Pictures"
+    ],
+    "Java": [
+      "Java/基础",
+      "Java/容器",
+      "Java/JUC",
+      "Java/IO",
+      "Java/JVM",
+      "Java/What's new?"
+    ],
+    "Database": [
+      "Database/MySql",
+      "Database/Redis",
+      "Database/MomgoDB",
+      "Database/ElasticSearch"
+    ],
+    "Java/JUC": [
+      "Java/JUC/01 - 基础.md",
+      "Java/JUC/02 - Thread.md",
+      "Java/JUC/03 - Lock",
+      "Java/JUC/04 - Collections",
+      "Java/JUC/05 - Atomic",
+      "Java/JUC/06 - Executors",
+      "Java/JUC/07 - Tools"
+    ]
+  },
+  "actionBarOrder": {},
+  "autoHide": false,
+  "autoHideDelay": 2000,
+  "dragDelay": 200
+}

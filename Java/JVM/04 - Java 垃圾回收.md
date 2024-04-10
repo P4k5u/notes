@@ -31,6 +31,7 @@ Serial Old 是 Serial 收集器的老年代版本，同样是一个单线程收�
 针对老年代，使用 标记-整理 算法
 
 优劣势与 Serial 一样
+
 #### ParNew
 ParNew 收集器是 Serial 收集器的多线程版本，除了使用多线程进行垃圾回收之外，其余和 Serial 收集器一致
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/JUC/08 - Executors/04 - ThreadPoolExecutor.md",
+                "file": "分布式/04 - 分布式缓存.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,12 +64,20 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "47e12d44e2f940f5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 284.5
   },
   "right": {
     "id": "b3ebd9db2055a2f1",
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/JUC/08 - Executors/04 - ThreadPoolExecutor.md",
+                "file": "分布式/04 - 分布式缓存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/JUC/08 - Executors/04 - ThreadPoolExecutor.md",
+                "file": "分布式/04 - 分布式缓存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JUC/08 - Executors/04 - ThreadPoolExecutor.md"
+                "file": "分布式/04 - 分布式缓存.md"
               }
             }
           },
@@ -137,7 +145,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -158,43 +167,44 @@
   },
   "active": "d6d46d20da905e6f",
   "lastOpenFiles": [
-    "未命名.canvas",
-    "Java/JUC/08 - Executors/04 - ThreadPoolExecutor.md",
-    "Java/JUC/08 - Executors/03 - ExecutorService.md",
-    "Java/JUC/08 - Executors/02 - ThreadPool.md",
-    "Java/JUC/08 - Executors/05 - ScheduledThreadPoolExecutor.md",
-    "Java/JUC/08 - Executors/06 - ForkJoinPool.md",
-    "Java/JUC/02 - Thread.md",
-    "分布式/01 - 理论基础.md",
-    "Java/IO/03 - Reactor 模式.md",
-    "Java/IO/02 - NIO.md",
-    "Java/容器/Map/01 - TreeMap.md",
-    "Java/容器/Map/03 - HashTable.md",
-    "Java/容器/Map/02 - HashMap.md",
+    "微服务/03 - Spring Cloud Alibaba/01 - Nacos.md",
+    "微服务/02 - Spring Cloud/06 - Config.md",
+    "Database/Redis/03 - 数据结构/01 - Redis 对象.md",
+    "Database/Redis/03 - 数据结构/03 - Redis Object 与底层数据结构对应关系.md",
+    "Database/Redis/03 - 数据结构/02 - 底层数据结构.md",
+    "分布式/03 - 分布式锁.md",
+    "分布式/05 - 分布式服务链路追踪.md",
+    "Database/Redis/06 - 过期删除策略.md",
+    "分布式/07 - 一致性算法.md",
+    "分布式/06 - 分布式事务.md",
+    "分布式/08 - 服务降级.md",
+    "分布式/10 - 负载均衡.md",
+    "微服务/02 - Spring Cloud/04 - OpenFeign.md",
+    "微服务/02 - Spring Cloud/07 - Sleuth.md",
+    "微服务/03 - Spring Cloud Alibaba/02 - Sentinal.md",
+    "微服务/04 - RPC.md",
+    "Pictures/Pasted image 20240408172714.png",
+    "微服务/05 - ZooKeeper.md",
+    "分布式/09 - 服务熔断.md",
+    "微服务/02 - Spring Cloud/01 - Eureka.md",
+    "微服务/02 - Spring Cloud/03 - Hystrix、Resilience4j.md",
     "微服务/01 - 基础.md",
-    "Database/Redis/05 - 高可用/02 - 哨兵.md",
+    "架构/06 - 高并发/02 - 限流.md",
+    "架构/06 - 高并发/01 - 缓存.md",
+    "架构/05 - 服务演化.md",
+    "MessageQueue/05 - RocketMQ.md",
+    "MessageQueue/04 - Kafka.md",
+    "Pictures/Pasted image 20240408231003.png",
+    "Pictures/Pasted image 20240408181518.png",
+    "Pictures/Pasted image 20240408180906.png",
+    "Pictures/Pasted image 20240408180630.png",
+    "未命名.canvas",
     "Pictures/Pasted image 20240406001845.png",
     "未命名文件夹",
-    "README.md",
-    "Spring/02 - Spring/03 - Bean/03 - 生命周期.md",
-    "Spring/02 - Spring/03 - Bean/02 - BeanDefinition.md",
-    "Spring/02 - Spring/02 - IoC 容器.md",
-    "Spring/02 - Spring/05 - AOP 切面实现.md",
-    "Spring/02 - Spring/06 - AOP 代理创建.md",
     "Pictures/Pasted image 20240406214403.png",
-    "Database/Redis/07 - 内存淘汰策略.md",
-    "Database/Redis/06 - 过期删除策略.md",
-    "分布式/09 - 服务熔断.md",
-    "分布式/08 - 服务降级.md",
-    "架构/07 - 高可用/03 - 容灾备份、故障转移.md",
     "Pictures/Pasted image 20240406002159.png",
     "Pictures/Pasted image 20240405225019.png",
     "Pictures/Pasted image 20240405232427.png",
-    "Pictures/Pasted image 20240405225247.png",
-    "Pictures/Pasted image 20240401175134.png",
-    "Pictures/Pasted image 20240401180218.png",
-    "Pictures/Pasted image 20240401180017.png",
-    "Pictures/Pasted image 20240401175800.png",
     "未命名 1",
     "未命名",
     "Java/容器/Collections/03 - Queue",

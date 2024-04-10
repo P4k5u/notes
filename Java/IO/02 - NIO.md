@@ -59,7 +59,8 @@ channel.read(bufferArray);
 ```
 bufferArray 里的 buffer 会依次进行读取，读取满了之后再到下一个 buffer，这也反映出 分散读取的方式不适合用于读取动态大小的数据
 ##### 聚集写入
-一个 channel 可以被多个 buffer 同时写入![[Pasted image 20231201160946.png]]
+一个 channel 可以被多个 buffer 同时写入
+![[Pasted image 20231201160946.png]]
 代码例子：
 ```java
 ByteBuffer header = ByteBuffer.allocate(128);
